@@ -1,0 +1,10 @@
+thop
+numpy
+pandas
+torch==1.10.0
+scikit-learn
+matplotlib
+patool
+sktime
+tdqm
+TSB-AD
