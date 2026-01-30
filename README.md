@@ -8,3 +8,6 @@ Special thanks to the authors and contributors of the following repositories:
 
 <a href=https://github.com/decisionintelligence/CrossAD>CrossAD</a>:
 a comprehensive benchmark and evaluation protocol for time-series anomaly detection.
+
+<a href=https://github.com/thuml/Time-Series-Library>Time-Series-Library</a>:
+comprehensive and reproducible deep-learning baselines for time-series tasks.
