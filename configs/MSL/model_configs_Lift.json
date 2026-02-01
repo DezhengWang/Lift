@@ -8,7 +8,7 @@
 
   "ms_kernels": [4, 2, 1],
   "spectral_boundary": "reflect",
-  "spectral_tau": 0.02,
+  "spectral_tau": 0.03,
   "spectral_eps": 1e-8,
   "spectral_min_bw": 0.0,
 
@@ -49,15 +49,15 @@
   "z_fuse_hidden": 512,
 
   "alpha_cycle_l": 0.5,
-  "alpha_ms_l": 0.5,
+  "alpha_casd_l": 0.5,
   "alpha_cons_l": 0.1,
 
-  "alpha_cycle_s": 0.5,
-  "alpha_ms_s": 0.5,
+  "alpha_cycle_s": 0.7,
+  "alpha_casd_s": 0.3,
   "alpha_cons_s": 0.1,
 
-  "res_level": 0.8,
-  "fusion_level": 0.2,
+  "res_level": 0.6,
+  "fusion_level": 0.4,
 
   "alpha_freq": 0.3,
   "alpha_time": 0.7,
