@@ -30,7 +30,7 @@ class Exp_Anomaly_Detection():
 
             if self.args.model_class in ['Left', ]:
                 self.hyper_args = Configs(
-                    os.path.join(self.args.configs_path, self.args.data, f"model_configs_Lift.json"))
+                    os.path.join(self.args.configs_path, self.args.data, f"model_configs_Left.json"))
 
         else:
             self.model_configs = Configs(
@@ -40,7 +40,7 @@ class Exp_Anomaly_Detection():
 
             if self.args.model_class in ['Left', ]:
                 self.hyper_args = Configs(
-                    os.path.join(self.args.configs_path, self.args.data, f"model_configs_Lift.json"))
+                    os.path.join(self.args.configs_path, self.args.data, f"model_configs_Left.json"))
 
         self.model = self._build_model().to(self.device)
 
