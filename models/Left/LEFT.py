@@ -12,7 +12,7 @@ from .Tools import (TFTransform, MS_Utils, TimeEncoderSeq, FreqEncoderSeq,
                     FreqDecoder, js_divergence, moving_average_1d)
 
 
-class Lift(nn.Module):
+class Left(nn.Module):
     """
     Deep-fusion Lift:
       - MS multi-scale tokens (Mtok)
